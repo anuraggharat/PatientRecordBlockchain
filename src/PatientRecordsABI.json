@@ -1,0 +1,150 @@
+{
+    "networks": {
+      "5777": {
+        "address": "0x31DA629804919Ad2fEb8D16507dcae4f357D4dc1"
+      }
+    },
+    "abi": [
+        {
+            "inputs": [
+                {
+                    "internalType": "string",
+                    "name": "_name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_age",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_height",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "_weight",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_gender",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "_diagnosis",
+                    "type": "string"
+                }
+            ],
+            "name": "addPatient",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "index",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getPatient",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "name": "getPatientsCount",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "patients",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "age",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "height",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "uint256",
+                    "name": "weight",
+                    "type": "uint256"
+                },
+                {
+                    "internalType": "string",
+                    "name": "gender",
+                    "type": "string"
+                },
+                {
+                    "internalType": "string",
+                    "name": "diagnosis",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ]
+    
+  }
+  
